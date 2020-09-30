@@ -3,7 +3,7 @@ package com.georgidinov;
 public class Main {
 
     public static void main(String[] args) {
-        
+        java.util.List<Integer> list = new java.util.ArrayList<>();
         String test1 = "Test";
         String test2 = new String(test1);
         System.out.println("Test1 hashCode = " + test1.hashCode());
